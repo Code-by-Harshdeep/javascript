@@ -197,8 +197,27 @@
 
 
 //arrow function
-let result=(a,b,c)=>{
-let d=a*b*c
-return `Multiplication of ${a} x ${b} x ${c} = ${d}`;
+// let result=(a,b,c)=>{
+// let d=a*b*c
+// return `Multiplication of ${a} x ${b} x ${c} = ${d}`;
+// }
+// console.log(result(2,2,2));
+
+// let multi=(a,b,c)=> a*b*c
+// console.log(multi(2,2,2));
+
+// let g=function(){
+// console.log("g is a anonymous function");
+// }
+
+let result=function(a,b){
+    return {
+    sum=a*b
+    diff=a-b
+    mult=a*b
+    divi=a/b
+    let modulo=a%b
+    let exponent=a**b}
+    }
 }
-console.log(result(2,2,2));
+console.log(result);
