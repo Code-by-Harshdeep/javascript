@@ -177,20 +177,28 @@
 // }
 // week(4)
 
-trafficlight=(lightcolor)=>{
-        switch(lightcolor){
-        case'Red':
-        console.log("stop");
-        break;
-        case'Yellow':
-        console.log("Get ready");
-        break;
-        case'Green':
-        console.log("Go Ahead");
-        break;
-        default:
-            console.log("Invaild");
-    }
+// trafficlight=(lightcolor)=>{
+//         switch(lightcolor){
+//         case'Red':
+//         console.log("stop");
+//         break;
+//         case'Yellow':
+//         console.log("Get ready");
+//         break;
+//         case'Green':
+//         console.log("Go Ahead");
+//         break;
+//         default:
+//             console.log("Invaild");
+//     }
     
+// }
+// trafficlight("Red")
+
+
+//arrow function
+let result=(a,b,c)=>{
+let d=a*b*c
+return `Multiplication of ${a} x ${b} x ${c} = ${d}`;
 }
-trafficlight("Red")
+console.log(result(2,2,2));
