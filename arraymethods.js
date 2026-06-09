@@ -208,11 +208,56 @@ let uppername = name.map((value) => {
 // })
 // console.log(greatlen);
 
-let a=["1","7","4","5","3","2"]
-parseInt(a)
+// let a=["1","7","4","5","3","2"]
+// parseInt(a)
 // let s=arr.length
 // // let i=0
 // // while()
 // //     i=
 // parseInt(arr[s])
-console.log(arr);
+// console.log(arr);
+
+
+// const cars=["Defender","Punch","Ferrari","mercedes"]
+
+// const greatlen= cars.find((items)=>{
+//      return items.length>7
+// })
+// console.log(greatlen);
+
+// const arr=["45555","536834","876497","38468"]
+// const arr2=arr.map(Number)
+
+// const intt=arr2.map((value)=>{
+//     return parseInt(value)
+// })
+
+// const fill=arr2.filter((value)=>{
+//     return value>300000
+// })
+
+// const fill1=arr2.find((value)=>{
+//     return value>310000
+// })
+// // console.log(intt);
+// console.log(fill);
+// console.log(fill1);
+
+
+//Reduce
+
+// const arr=[45,34,23,78];
+// const result=arr.reduce((acc,num)=>{
+//     return acc+num
+// },0);
+
+// console.log(result);
+
+const arr=[45,34,23,78];
+const result=arr.reduce((acc,num)=>{
+    return acc*num
+},1);
+
+console.log(result);
+
+
