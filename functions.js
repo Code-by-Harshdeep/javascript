@@ -210,14 +210,14 @@
 // console.log("g is a anonymous function");
 // }
 
-let result=function(a,b){
-    return {
-    sum=a*b
-    diff=a-b
-    mult=a*b
-    divi=a/b
-    let modulo=a%b
-    let exponent=a**b}
-    }
-}
-console.log(result);
+// let result=function(a,b){
+//     return {
+//     sum=a*b
+//     diff=a-b
+//     mult=a*b
+//     divi=a/b
+//     let modulo=a%b
+//     let exponent=a**b}
+//     }
+// }
+// console.log(result);
