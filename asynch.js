@@ -189,14 +189,11 @@
 
 
   let count=0;
-  let num;
-function stopwatch(num){
+function stopwatch(){
     console.log(count);
     count++;
-   
     }
- 
-
+    
 let s=setInterval(()=>{
    stopwatch()
    
