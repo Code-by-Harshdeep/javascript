@@ -152,26 +152,35 @@
 // console.log(f);
 
 // id ,name, branch
-const person=[
-    { id:1,name:"alice",branch:"btech" ,rollno:121},
-    { id:2,name:"James",branch:"bca",rollno:122},
-    { id:3,name:"skyy",branch:"btech-ai-ml",rollno:123},
-    { id:4,name:"Yoru",branch:"btech",rollno:124},
-    { id:5,name:"Gekko",branch:"bca",rollno:125},
-    { id:6,name:"Brim",branch:"btech-ai-ml",rollno:126},
-    { id:7,name:"Breach",branch:"btech",rollno:128},
-    { id:8,name:"Willfort",branch:"btech",rollno:129},
-    { id:9,name:"charles",branch:"btech",rollno:130},
-    { id:10,name:"kenny",branch:"btech",rollno:127}
+// const person=[
+//     { id:1,name:"alice",branch:"btech" ,rollno:121},
+//     { id:2,name:"James",branch:"bca",rollno:122},
+//     { id:3,name:"skyy",branch:"btech-ai-ml",rollno:123},
+//     { id:4,name:"Yoru",branch:"btech",rollno:124},
+//     { id:5,name:"Gekko",branch:"bca",rollno:125},
+//     { id:6,name:"Brim",branch:"btech-ai-ml",rollno:126},
+//     { id:7,name:"Breach",branch:"btech",rollno:128},
+//     { id:8,name:"Willfort",branch:"btech",rollno:129},
+//     { id:9,name:"charles",branch:"btech",rollno:130},
+//     { id:10,name:"kenny",branch:"btech",rollno:127}
  
-]
-// let f=person.find((item)=>{
-// return item.id==3;
-// })
-// f.branch="MCA"
-// console.log(f);
+// ]
+// // let f=person.find((item)=>{
+// // return item.id==3;
+// // })
+// // f.branch="MCA"
+// // console.log(f);
 
-let sv=person.filter((item)=>{
-    return item.branch=="bca"
-})
-console.log(sv);
+// let sv=person.filter((item)=>{
+//     return item.branch=="bca"
+// })
+// console.log(sv);
+
+
+
+
+
+
+
+
+
