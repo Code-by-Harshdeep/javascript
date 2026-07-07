@@ -10,3 +10,5 @@ console.log(userCity)
 console.log([userId,userEmail,userPassword])
 console.table([userId,userEmail,userPassword])
 console.log(accountState)
+
+//var is old method not prefer to use in modern programming
