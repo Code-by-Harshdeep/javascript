@@ -29,7 +29,7 @@ let state
 //object
 
 //typeof to check data type
-console.log(typeof "harsh")
+console.log(typeof "harsh") 
 console.log(typeof NaN)
 console.log(typeof null)  //output object
 console.log(typeof undefined) //output undefined beacuse it is type
