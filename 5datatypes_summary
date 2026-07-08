@@ -49,3 +49,24 @@ console.log(typeof(myobj))      //return as object
 console.log(typeof(heros))   //return as object
 
 
+// ------------------------------------//
+
+//Stack (Primitive), Heap (Non-Premitive)
+
+let myYoutubename = "Harsh"
+let anothername = "mychannel"
+
+console.log(myYoutubename)
+console.log(anothername)
+
+let userOne={
+    email:"user@gmail.com",
+    upi:"user@oksbi"
+}
+let userTwo=userOne;
+// console.log(userTwo)
+
+userTwo.email="new@gmail.com"
+console.log(userOne.email)
+console.log(userTwo.email)
+

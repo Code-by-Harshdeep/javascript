@@ -1,7 +1,10 @@
-const id=Symbol("123")
-const anotherId =Symbol("123")
+let userOne={
+    email:"user@gmail.com",
+    upi:"user@oksbi"
+}
+let userTwo=userOne;
+// console.log(userTwo)
 
-console.log(id === anotherId)
-
-console.log(typeof id)
-console.log(typeof anotherId)
+userTwo.email="new@gmail.com"
+console.log(userOne.email)
+console.log(userTwo.email)
