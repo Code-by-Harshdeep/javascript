@@ -1,4 +1,6 @@
-const mynums=[0,1,2,3,4,5]
-const mynum2=mynums.splice(0,2)
-console.log(mynum2)
-console.log(mynums)
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+
+console.log(Array.of(score1,score2,score3))
