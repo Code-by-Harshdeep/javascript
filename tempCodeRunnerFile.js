@@ -1,2 +1,2 @@
-console.log("2" > 1)
-console.log("02" > 1)
+const StringThree ="Harsh-@-.com"
+console.log(StringThree.split("-"))
