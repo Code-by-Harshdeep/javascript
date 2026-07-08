@@ -1,3 +1,2 @@
-let gameCounter=100
-++gameCounter;
-console.log(gameCounter)
+console.log("2" > 1)
+console.log("02" > 1)
