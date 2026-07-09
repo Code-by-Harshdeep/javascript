@@ -1,10 +1,12 @@
-function handleObject(anyobject){
-    console.log(`User name is ${anyobject.username} and price is ${anyobject.price}`)
+const myNewArray = [200, 400, 100, 600]
+
+function returnSecondValue(getArray){
+    return (getArray[1])
 }
 
+console.log(returnSecondValue(myNewArray))  
 
-// handleObject(user);
-handleObject({
-    username:"Alice",
-    price:399
-})
+function returnFullArray(...myarray){
+ return [...myarray]
+}
+console.log(returnFullArray(myNewArray))
