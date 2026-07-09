@@ -35,7 +35,33 @@ function loginUserMessage(username="Alice"){
 }
 // (username="Alice")
 // we can also give a default value if user input is empty
-console.log(loginUserMessage("Harsh"))  
-console.log(loginUserMessage()) 
+// console.log(loginUserMessage("Harsh"))  
+// console.log(loginUserMessage()) 
+
+function caculateCartPrice(...num1){
+   return num1
+}
+
+console.log(caculateCartPrice( 200, 400, 500, 2000 ))
+
+const user={
+    username:"Harsh",
+    price:199
+}
+
+function handleObject(anyobject){
+    console.log(`User name is ${anyobject.username} and price is ${anyobject.price}`)
+}
 
 
+// handleObject(user);
+handleObject({
+    username:"Alice",
+    price:399
+})
+
+const myNewArray =[200, 400, 100, 600]
+
+function returnSecondValue(getArray){
+    return getArray
+}

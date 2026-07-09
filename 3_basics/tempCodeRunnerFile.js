@@ -1,12 +1,10 @@
-
-function loginUserMessage(username="Alice"){
-    if(!username){
-        console.log("please enter a Username")
-        return
-
-    }
-    return `${username} just logged in`
+function handleObject(anyobject){
+    console.log(`User name is ${anyobject.username} and price is ${anyobject.price}`)
 }
 
-console.log(loginUserMessage("Harsh"))  
-console.log(loginUserMessage())  
+
+// handleObject(user);
+handleObject({
+    username:"Alice",
+    price:399
+})
