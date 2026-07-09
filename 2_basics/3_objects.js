@@ -1,3 +1,9 @@
+//singleton
+//Object.create
+
+
+
+
 //declaring a symbol
 const mySym =Symbol("key1")
 
