@@ -73,3 +73,7 @@ console.log(Object.entries(tinderUser))
 // we can use hasOwnProperty to check which will result
 //either in true or false
 console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+
+
+
+
