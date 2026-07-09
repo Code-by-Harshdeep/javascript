@@ -74,6 +74,25 @@ console.log(Object.entries(tinderUser))
 //either in true or false
 console.log(tinderUser.hasOwnProperty('isLoggedIn'))
 
+const course ={
+    coursename : "js in hindi",
+    price: "999",
+    courseInstructor : "Harsh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor } =course  //this is prefered using (.) dot again and again like object.key
+                                  //instead const {key} =object
+//{courseInstructor :instructor}
+const {courseInstructor :instructor} =course
+//{real key name  : alias name} we can give
+console.log(courseInstructor)
+console.log(instructor)
 
 
+//destructuring objects
+const navbar=({company})=>{
+}
+navbar(company="abc_Company")
 
