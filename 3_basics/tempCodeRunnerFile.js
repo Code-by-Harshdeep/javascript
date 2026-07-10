@@ -1,10 +1,2 @@
-addone(5)
-function addone(num){
-    return num+1
-}
-
-
-addTwo(5)
-const addTwo =function(num){
-    return num+2
-}
+const addTwo=(num1,num2)=> ({username:"Harsh"})
+console.log(addTwo(3,4))
