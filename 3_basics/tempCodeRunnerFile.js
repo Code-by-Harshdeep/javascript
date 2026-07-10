@@ -1,2 +1,10 @@
-const addTwo=(num1,num2)=> ({username:"Harsh"})
-console.log(addTwo(3,4))
+//Immediately Invoked Function Expressions
+
+
+(function chai(){
+    console.log("DB Connected")
+})();
+
+(()=>{
+console.log("DB1 Connected")
+})()
