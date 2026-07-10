@@ -1,12 +1,10 @@
-const myNewArray = [200, 400, 100, 600]
-
-function returnSecondValue(getArray){
-    return (getArray[1])
+addone(5)
+function addone(num){
+    return num+1
 }
 
-console.log(returnSecondValue(myNewArray))  
 
-function returnFullArray(...myarray){
- return [...myarray]
+addTwo(5)
+const addTwo =function(num){
+    return num+2
 }
-console.log(returnFullArray(myNewArray))
