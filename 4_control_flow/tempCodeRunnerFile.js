@@ -1,26 +1,18 @@
-
-const month =3;
+const month ="Feb";
 
 //use Shift alt arrown down key to duplicate
 switch (month) {
-    case 1:
-        console.log("Jan")
+    case "Jan":
+        console.log("January")
         break;
-    case 2:
-        console.log("Feb")
+    case "Feb":
+        console.log("Februrary")
         break;
-    case 3:
-        console.log("Mar")
-        break;
-    case 4:
-        console.log("Apr")
-        break;
-    case 5:
-        console.log("May")
+    case "Mar":
+        console.log("March")
         break;
         
-
     default:
-        console.log("none")
+        console.log("Default")
         break;
 }
