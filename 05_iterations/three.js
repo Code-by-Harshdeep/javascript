@@ -42,7 +42,7 @@ map.set('US',"UNITED STATES OF AMERICA")
 map.set('FR',"FRANCE")
 
 // console.log(map)
-
+// Array Destuctor [key,val]
 for (const [key,val] of map) {
      console.log(key,val);    
 }

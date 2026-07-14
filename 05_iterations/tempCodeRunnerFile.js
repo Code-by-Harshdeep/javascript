@@ -1,8 +1,18 @@
-const myObj={
-   "Game1":"NFS",
-   "Game2":"Spi"
-}
+const MyCoding=[
+    {
+        Languagename:"Javascript",
+        LanguagefileName:"JS1"
+    } ,
+      {
+        Languagename:"PYthon",
+        LanguagefileName:"PY1"
+    },
+      {
+        Languagename:"C++",
+        LanguagefileName:"C1"
+    }
+]
 
-for (const [key,pair] of myObj) {
-    console.log(key,":-",pair)
-}
+MyCoding.forEach((item)=>{
+     console.log(item.Languagename," ",item.LanguagefileName)
+})
