@@ -48,12 +48,14 @@ for (const [key,val] of map) {
 }
 
 const myObj={
-   "Game1":"NFS",
-   "Game2":"Spi"
+   Game1:"NFS",
+   Game2:"Spi"
 }
 
 for (const [key,pair] of myObj) {
     console.log(key,":-",pair)
 }
 //object is not iterable result as
+//object has different iterable methods
+
 
