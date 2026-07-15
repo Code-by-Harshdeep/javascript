@@ -21,3 +21,4 @@ const j=myNums.filter((item)=>{
 //filter return a new array with formatting of true
 console.log(j)
 
+
