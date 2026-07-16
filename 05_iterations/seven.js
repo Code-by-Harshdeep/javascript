@@ -6,3 +6,10 @@ console.log(f)
 const j=myNums.forEach((item)=>console.log(item+10))
 console.log(j)
 
+
+//Chaining with methods
+const newNums = myNums.map((num)=>num*10)
+.map((num)=> num+1 )
+.filter((num)=>num>=50)
+
+console.log(newNums)
